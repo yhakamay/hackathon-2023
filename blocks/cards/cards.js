@@ -1,5 +1,4 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
-import '@spectrum-web-components/card/sp-card.js';
 
 export default function decorate(block) {
   /* change to ul, li */
