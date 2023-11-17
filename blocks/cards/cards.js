@@ -3,6 +3,7 @@ import '@spectrum-web-components/card/sp-card.js';
 
 export default function decorate(block) {
   /* change to ul, li */
+  console.log('cards.js');
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const card = document.createElement('sp-card');
